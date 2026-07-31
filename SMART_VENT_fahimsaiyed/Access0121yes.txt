@@ -5,3 +5,4 @@ curl -o /dev/null -s -w "Connect: %{time_connect}s\nTTFB: %{time_starttransfer}s
 curl -o /dev/null -s -w "Connect: %{time_connect}s\nTTFB: %{time_starttransfer}s\nTotal: %{time_total}s\n" https://google.com
 curl -o /dev/null -s -w "Connect: %{time_connect}s\nTTFB: %{time_starttransfer}s\nTotal: %{time_total}s\n" https://google.com
 curl -o /dev/null -s -w "Connect: %{time_connect}s\nTTFB: %{time_starttransfer}s\nTotal: %{time_total}s\n" https://google.com
+q
